@@ -31,7 +31,6 @@ public class MatrixService extends Service {
     private String hsUrl;
     private String syncDelay;
     private String syncTimeout;
-    private MMSMonitor mms;
     private String mChannelId = "";
 
     @Override
@@ -91,10 +90,7 @@ public class MatrixService extends Service {
             }
         }
 
-        if (this.mms == null) {
-            this.mms = new MMSMonitor(this , getApplicationContext());
-            this.mms.startMMSMonitoring();
-        }
+
 
         return START_NOT_STICKY;
 
@@ -116,8 +112,6 @@ public class MatrixService extends Service {
         if (mx != null) {
             mx.destroy();
         }
-        this.mms.stopMMSMonitoring();
-        this.mms = null;
         super.onDestroy();
     }
 
