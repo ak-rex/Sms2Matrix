@@ -1,4 +1,4 @@
-package eu.droogers.smsmatrix;
+package com.martindaleresearch.smsmatrix;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
