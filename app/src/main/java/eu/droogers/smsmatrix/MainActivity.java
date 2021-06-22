@@ -1,4 +1,4 @@
-package eu.droogers.smsmatrix;
+package com.martindaleresearch.smsmatrix;
 
 import android.Manifest;
 import android.app.Activity;
