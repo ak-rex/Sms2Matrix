@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="eu.droogers.smsmatrix">
+    package="com.martindaleresearch.smsmatrix">
 
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="eu.droogers.smsmatrix.ReceiverListener">
+        <receiver android:name="com.martindaleresearch.smsmatrix.ReceiverListener">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
@@ -38,8 +38,8 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="eu.droogers.smsmatrix.MatrixService" />
-        <service android:name="eu.droogers.smsmatrix.MmsService" />
+        <service android:name="com.martindaleresearch.smsmatrix.MatrixService" />
+        <service android:name="com.martindaleresearch.smsmatrix.MmsService" />
 
 
     </application>
