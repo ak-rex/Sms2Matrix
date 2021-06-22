@@ -1,4 +1,4 @@
-package eu.droogers.smsmatrix;
+package com.martindaleresearch.smsmatrix;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("eu.droogers.smsmatrix", appContext.getPackageName());
+        assertEquals("com.martindaleresearch.smsmatrix", appContext.getPackageName());
     }
 }
