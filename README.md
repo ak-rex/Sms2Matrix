@@ -16,8 +16,8 @@ As currently there is no end-to-end encryption implemented in this app, for priv
 
 # Set up
 - Create an account on a homeserver
-- Install this app (compile the apk from source or from [f-droid](https://f-droid.org/))
-- Give the app the app permission
+- Install this app (compile the apk from source or from the [Play Store](https://play.google.com/app/com.martindaleresearch.sms2matrix))
+- Grant the app all the necessary permissions
 - Type in the needed info in the app
   - Bot Username: is the username of the just created user
   - Bot Password: is the password of the just created user
