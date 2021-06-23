@@ -15,7 +15,7 @@ As currently there is no end-to-end encryption implemented in this app, for priv
 </a>
 
 # Set up
-- Create an account on a homeserver
+- Create an account for the bot on a homeserver
 - Install this app (compile the apk from source or download it from the [Play Store](https://play.google.com/app/com.martindaleresearch.sms2matrix))
 - Grant the app all the necessary permissions
 - Type in the needed info in the app
