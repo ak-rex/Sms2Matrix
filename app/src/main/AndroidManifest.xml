@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.martindaleresearch.smsmatrix">
+    package="com.martindaleresearch.sms2matrix">
 
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.READ_SMS" />
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_SMS" />
     <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.SEND_MMS" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
@@ -25,7 +27,7 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.martindaleresearch.smsmatrix.ReceiverListener">
+        <receiver android:name="com.martindaleresearch.sms2matrix.ReceiverListener">
             <intent-filter>
                 <action android:name="android.provider.Telephony.SMS_RECEIVED" />
             </intent-filter>
@@ -38,8 +40,8 @@
             </intent-filter>
         </receiver>
 
-        <service android:name="com.martindaleresearch.smsmatrix.MatrixService" />
-        <service android:name="com.martindaleresearch.smsmatrix.MmsService" />
+        <service android:name="com.martindaleresearch.sms2matrix.MatrixService" />
+        <service android:name="com.martindaleresearch.sms2matrix.MmsService" />
 
 
     </application>
