@@ -7,11 +7,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion '28.0.3'
     defaultConfig {
-        applicationId "eu.droogers.smsmatrix"
+        applicationId "com.martindaleresearch.sms2matrix"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1
-        versionName "0.0.17"
+        versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -55,4 +55,5 @@ dependencies {
     implementation 'com.squareup.okhttp3:logging-interceptor:3.12.3'
     implementation 'com.facebook.stetho:stetho:1.5.0'
     implementation 'com.facebook.stetho:stetho-okhttp3:1.5.0'
+    implementation "androidx.core:core-ktx:+"
 }
