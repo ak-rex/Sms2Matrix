@@ -9,14 +9,9 @@ A SMS/MMS &lt;--> Matrix bridge.
 This app bridges all sms messages to matrix. For every (new) text conversation contact the bot will open a private 1:1 room and sends the incoming messages to that room. Any messages sent in that room by the matrix user will then be sent to the contact via SMS.  
 As currently there is no end-to-end encryption implemented in this app, for privacy reasons it is preferable to use it with your own Matrix server. Your data-in-transit however will always be safe as they are encrypted using https over matrix -- provided the Matrix server is configured properly.
 
-<a href="https://play.google.com/app/com.martindaleresearch.sms2matrix">
-    <img src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0"
-        alt="Get it on the Play Store" height="80"/>
-</a>
-
 # Set up
 - Create an account for the bot on a homeserver
-- Install this app (compile the apk from source or download it from the [Play Store](https://play.google.com/app/com.martindaleresearch.sms2matrix))
+- Install this app (compile the apk from source
 - Grant the app all the necessary permissions
 - Type in the needed info in the app
   - Bot Username: is the username of the just created user
