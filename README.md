@@ -11,7 +11,7 @@ As currently there is no end-to-end encryption implemented in this app, for priv
 
 # Set up
 - Create an account for the bot on a homeserver
-- Install this app (compile the apk from source
+- Install this app (compile the apk from source or download from releases)
 - Grant the app all the necessary permissions
 - Type in the needed info in the app
   - Bot Username: is the username of the just created user
